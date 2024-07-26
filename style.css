@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 20px;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    align-items: center;
+}
+.imgBox{
+    padding: 5px;
+    /* margin: 5px;
+    border: 2px solid blue; */
+}
+#popup1{
+    display: none;
+}
+
+.popup{
+    /* border: 2px solid lime; */
+    position: absolute;
+    top: 200px;
+    left: 30%;
+}
+.popup p{
+    text-align: right;
+    font-weight: bold;
+
+}
+.popup img{
+    height: 300px;
+    width: 300px;
+}
+
+#popup2{
+    display: none;
+}
+#popup3{
+    display: none;
+}
